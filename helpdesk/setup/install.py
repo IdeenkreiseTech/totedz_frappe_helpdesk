@@ -202,7 +202,7 @@ def add_agent_manager_permissions():
         "File": ["create", "delete", "write"],
         "Contact": ["create", "delete", "write"],
         "Communication": ["create", "delete", "write"],
-        "User Invitation": ["create", "write"],
+        # "User Invitation": ["create", "write"],
         "Role": [],
     }
     for dt in doc_to_permissions.keys():
